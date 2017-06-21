@@ -10,7 +10,7 @@ Intended for use with ESPI experiment at Belmont university
  * (optional) IDS camera kit: https://github.com/ncsuarc/ids
 
 ## Running:
-Run `python2 image-capture-opencv.py`
+Run `python2 capture.py`
 
 Code taken from the following tutorials...
 
