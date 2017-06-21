@@ -12,6 +12,25 @@ Intended for use with ESPI experiment at Belmont university
 ## Running:
 Run `python2 capture.py`
 
+Controls are pretty rudimentary; they are single-key keyboard commands, entered either in the terminal window or in the image window:
+
+   D = difference image: take reference image & subtract
+   C = clear settings: clear reference image, reset contrast/brightness
+   G = toggle grayscale
+   T = toggle time averaging
+   I = toggle invert
+   K = toggle crop (Draw box with mouse first, then press K)
+   N = toggle de-noising (slow)
+   Up/Down arrows = more/less contrast
+   Left/Right arrows = less/more brightness
+   V = 'music video mode': subtract previous frame
+   S = save image to espi_image.jpg
+   R = start/stop recording video to espi_movie.mp4v
+   Q = quit
+
+I invite pull requests with improved (e.g. GUI) controls! ;-)
+
+<hr>
 Code taken from the following tutorials...
 
   * Built from Tutorial "Getting Started with Videos": http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
