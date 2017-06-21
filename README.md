@@ -5,10 +5,12 @@ Python (v2) utility for image capture, frame subtraction, (e.g. for ESPI)
 Capture realtime frames from camera, perform reference frame subtraction
 Intended for use with ESPI experiment at Belmont university
 
-Uses OpenCV, and can use IDS camera kit: https://github.com/ncsuarc/ids
+## Requirements:
+ * OpenCV, can be in Terminal via `pip install opencv-python`. 
+ * (optional) IDS camera kit: https://github.com/ncsuarc/ids
 
-Can install OpenCV via "pip install opencv".
-
+## Running:
+Run `python2 image-capture-opencv.py`
 
 Code taken from the following tutorials...
 
