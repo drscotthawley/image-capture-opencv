@@ -6,7 +6,7 @@ Capture realtime frames from camera, perform reference frame subtraction
 Intended for use with ESPI experiment at Belmont university
 
 ## Requirements:
- * OpenCV, can be in Terminal via `pip install opencv-python`. 
+ * OpenCV, can be installed via `pip install opencv-python`. 
  * (optional) IDS camera kit: https://github.com/ncsuarc/ids
 
 ## Running:
