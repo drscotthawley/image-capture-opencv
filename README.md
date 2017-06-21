@@ -28,7 +28,7 @@ Controls are pretty rudimentary; they are single-key keyboard commands, entered 
       R = start/stop recording video to espi_movie.mp4v
       Q = quit
 
-I invite pull requests with improved (e.g. GUI) controls! ;-)
+I invite pull requests with improved (e.g. GUI) controls, and/or any other improvements! 
 
 <hr>
 Code taken from the following tutorials...
